@@ -149,12 +149,7 @@ footer p{
  .text-primary{
      color: var(--color)!important;
  }
- 
- /* seccion carrusel */
- .carousel{
-     margin-top: 5rem;
- }
- 
+
  
  /* Portafolio */ 
  
@@ -167,22 +162,6 @@ footer p{
      -webkit-transform: scale(1.2);
          -ms-transform: scale(1.2);
              transform: scale(1.2);
- }
- 
- /* banner oferta*/
- #offers{
-     background: url('images/promo-banner.jpg') center/cover no-repeat;
- }
- 
- .offers-content span{
-     font-size: 28px;
- }
- .offers-content h2{
-     font-size: 60px;
-     font-family: var(--font);
- }
- .offers-content .btn{
-     border-color: transparent!important;
  }
  
  
@@ -214,7 +193,10 @@ footer p{
  }
  
  
-
+ .card-img-top{
+    width: 22rem !important;
+    height: 22rem !important;
+ }
 /*=========================MEDIA QUERIES PANTALLA ANCHA================================*/
 
 @media (max-width:1200px){
